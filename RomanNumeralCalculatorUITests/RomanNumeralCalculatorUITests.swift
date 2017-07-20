@@ -22,7 +22,7 @@ class RomanNumeralCalculatorUITests: XCTestCase {
 
         // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
 
-        XCUIApplication().orientation = .portrait
+        // XCUIApplication().orientation = .portrait
     }
     
     override func tearDown() {
