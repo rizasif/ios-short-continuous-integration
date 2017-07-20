@@ -424,7 +424,7 @@
 				);
 				INFOPLIST_FILE = RomanNumeralCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.udacity.RomanNumeralCalculator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.riz.RomanNumeralCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
@@ -445,7 +445,7 @@
 				);
 				INFOPLIST_FILE = RomanNumeralCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.udacity.RomanNumeralCalculator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.riz.RomanNumeralCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
@@ -463,7 +463,7 @@
 				INFOPLIST_FILE = RomanNumeralCalculatorTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Udacity.RomanNumeralCalculatorTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.riz.RomanNumeralCalculatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_VERSION = 3.0;
@@ -481,7 +481,7 @@
 				INFOPLIST_FILE = RomanNumeralCalculatorTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Udacity.RomanNumeralCalculatorTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.riz.RomanNumeralCalculatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RomanNumeralCalculator.app/RomanNumeralCalculator";
@@ -497,7 +497,7 @@
 				INFOPLIST_FILE = RomanNumeralCalculatorUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Udacity.RomanNumeralCalculatorUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.riz.RomanNumeralCalculatorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_VERSION = 3.0;
@@ -514,7 +514,7 @@
 				INFOPLIST_FILE = RomanNumeralCalculatorUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Udacity.RomanNumeralCalculatorUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.riz.RomanNumeralCalculatorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = RomanNumeralCalculator;
