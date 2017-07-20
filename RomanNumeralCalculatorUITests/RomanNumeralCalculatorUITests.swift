@@ -21,6 +21,8 @@ class RomanNumeralCalculatorUITests: XCTestCase {
         XCUIApplication().launch()
 
         // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
+
+        XCUIApplication().orientation = .portrait
     }
     
     override func tearDown() {
@@ -31,6 +33,23 @@ class RomanNumeralCalculatorUITests: XCTestCase {
     func testExample() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+    }
+
+    func testAddOnePlusOne(){
+        let app = XCUIApplication()
+        let iButton = app.buttons["I"]
+        let calculated_label = app.staticTexts["calculated_value"].tap()
+
+        //tap I
+        iButton.tap()
+        XCTAssertEqual(calculatedLabel.label, "I")
+
+        //tap +
+        app.buttons["+"].tap()
+
+        //tap I
+        iButton.tap()
+        XCTAssertEqual(calculatedLabel.label, "II")
     }
     
 }
