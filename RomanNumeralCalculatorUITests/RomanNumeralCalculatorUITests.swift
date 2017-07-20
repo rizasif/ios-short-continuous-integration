@@ -42,14 +42,14 @@ class RomanNumeralCalculatorUITests: XCTestCase {
 
         //tap I
         iButton.tap()
-        XCTAssertEqual(calculatedLabel.label, "I")
+        XCTAssertEqual(calculated_label.label, "I")
 
         //tap +
         app.buttons["+"].tap()
 
         //tap I
         iButton.tap()
-        XCTAssertEqual(calculatedLabel.label, "II")
+        XCTAssertEqual(calculated_label.label, "II")
     }
     
 }
